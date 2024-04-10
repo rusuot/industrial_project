@@ -1,23 +1,15 @@
 # crud-node-firebase
  CRUD node.js + firebase tutorial
 Start project with: 
-npm install
-npm run dev
-
+<ul>
+<li>npm install</li>
+<li>npm run dev</li>
+</ul>
 Once the project is run, a message such as "Server has started on port: 8383" will be displayed in Terminal console.
 Next, for any CRUD API call, Postman can be used.
 Below API CRUD calls can be checked:
 
 ### GET ALL products 
-
-<ul>
-<li>Method: **GET** </li>
-<li>Path:   **http://localhost:8383/products** </li>
-<li>Response status: **200 OK** </li>
-<li>Response body: </li>
-</ul>
-
-
 Method: GET \
 Path:   http://localhost:8383/products \
 Response status: 200 OK \
@@ -42,8 +34,7 @@ Response body:
 ### GET a product by a specific ID
 Method: GET \
 Path:   http://localhost:8383/products/id/2 \
-Response status: 200 OK
-
+Response status: 200 OK \
 Response body:
 ```
 {
@@ -60,26 +51,45 @@ Response body:
 }
 ```
 
-
-### product by category
-GET http://localhost:8383/products/jewelery
-Response status: 200 OK
+### GET LIST of products by a specific category
+Method: GET \
+Path: http://localhost:8383/products/jewelery \
+Response status: 200 OK \
 Response body: 
-{
-"id": "this is id_value312",
-"title": "title",
-"price": "this is id_value312",
-"description": "title",
-"category": "category_value",
-"image": "image",
-"rating": {"rate": "0", "count": "1"}
-}
-
+```
+[
+    {
+        "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+        "price": 695,
+        "rating": {
+            "rate": 4.6,
+            "count": 400
+        },
+        "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+        "id": "5",
+        "category": "jewelery",
+        "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet"
+    },
+    {
+        "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "price": 168,
+        "rating": {
+            "rate": 3.9,
+            "count": 70
+        },
+        "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+        "id": "6",
+        "category": "jewelery",
+        "title": "Solid Gold Petite Micropave "
+    }...]
+```
 
 ### POST - ADD A PRODUCT
-POST http://localhost:8383/addproduct
-Content-Type: application/json
-
+Method: POST \
+Path: http://localhost:8383/addproduct \
+Headers:  Key: Content-Type   &  Value: application/json  \
+Body:
+```
 {
       "id":"1",
       "title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
@@ -92,32 +102,19 @@ Content-Type: application/json
          "count":120
       }
    }
-!!!Mention!!!
-ID must be string, hence using "1" for "id".
-Reason:
-If we will use 1 (as integer/number): an eeror will be received & the error has to do with how json-server works.
-Each and every key directly exposed at the root of the JSON object is considered as a separate URL in json-server. 
+```
+Response status: 200 OK
+Response body: (same as body sent above)
+[!NOTE] 
+ID must be string, hence using "1" for "id". \
+Reason: \
+If we will use 1 (as integer/number): an eeror will be received & the error has to do with how json-server works. \
+Each and every key directly exposed at the root of the JSON object is considered as a separate URL in json-server. \
 
-
-### UPDATE STATUS OF A PRODUCT
-PATCH http://localhost:8383/changestatus
-Content-Type: application/json
-
-{"name": "this_product_is_added_with_post",
-"newStatus": "_updated_sneakers"
-}
-
-
-###DELETE A PRODUCT
-DELETE http://localhost:8383/products
-Content-Type: application/json
-
-{
-    "name": "this_product_to_delete__with_post"
-}
 
 ********************************************************************************************************************************************************************************************
-Entire list for products (amazon-scrapper):
+[!Important]
+Entire list for products (retrieved with amazon-scrapper, GitHub link will be provided):
 
 *** 1.
 {
