@@ -115,7 +115,7 @@ Each and every key directly exposed at the root of the JSON object is considered
 ********************************************************************************************************************************************************************************************
 [!Important]
 Entire list for products (retrieved with amazon-scrapper, GitHub link will be provided):
-
+```
 *** 1.
 {
       "id":"1",
@@ -402,16 +402,7 @@ Entire list for products (retrieved with amazon-scrapper, GitHub link will be pr
       "count": 145
     }
   }
-
-
-
-
-
-
-
-
-
-
+```
 
 
 Code presented in this repo works, is running without any issue. However, I have found some very interesting automatic tools, I will let below the links, they are only for infor for any further projects:
