@@ -1,5 +1,10 @@
 # crud-node-firebase
- CRUD node.js + firebase tutorial
+CRUD node.js + firebase  
+
+# creds.json and firebase DB
+- These credentials are for a specific DB created only for testing
+- These Firebase DB data can be updated with any Firebase DB details (work for Industrial Project)
+ 
 Start project with: 
 <ul>
 <li>npm install</li>
