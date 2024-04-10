@@ -105,7 +105,7 @@ Body:
 ```
 Response status: 200 OK
 Response body: (same as body sent above)
-[!NOTE] 
+##### [!NOTE] 
 ID must be string, hence using "1" for "id". \
 Reason: \
 If we will use 1 (as integer/number): an eeror will be received & the error has to do with how json-server works. \
