@@ -9,10 +9,10 @@ Next, for any CRUD API call, Postman can be used.
 Below API CRUD calls can be checked:
 
 ### GET ALL products 
-Method: GET 
-Path:   http://localhost:8383/products
-Response status: 200 OK
-Response body:
+Method: GET \
+Path:   http://localhost:8383/products \
+Response status: 200 OK \
+Response body: \
 ```
 [
     {
