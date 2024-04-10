@@ -11,9 +11,9 @@ Below API CRUD calls can be checked:
 ### GET ALL products 
 
 <ul>
-<li>Method: GET </li>
-<li>Path:   http://localhost:8383/products </li>
-<li>Response status: 200 OK </li>
+<li>Method: **GET** </li>
+<li>Path:   **http://localhost:8383/products** </li>
+<li>Response status: **200 OK** </li>
 <li>Response body: </li>
 </ul>
 
