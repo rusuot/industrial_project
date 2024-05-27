@@ -5,9 +5,23 @@ CRUD node.js + firebase
 - These credentials are for a specific DB created only for testing
 - These Firebase DB data can be updated with any Firebase DB details (research work for Industrial Project, so these are only simple "learning steps")
 
+# Firebase (how to crate a DB)
+Supporting material:
+
+https://www.youtube.com/watch?v=qKxisFLQRpQ
+
+https://www.youtube.com/watch?v=5PZNDF_lbiI
+
+https://www.youtube.com/watch?v=5O38WFpoLn8&t=473s
+
 # Support Videos for how to create Firebase CRUD API (these are only 2 examples):
 https://www.youtube.com/watch?v=bs_xs9-RJvc 
 https://www.youtube.com/watch?v=bs_xs9-RJvc 
+
+# Example how you can generate keys and Firebase DB details:
+![image](https://github.com/rusuot/industrial_project_crud_api_firebase/assets/156461904/20978a8b-100d-42b9-a4a2-0dcfe0194321)
+Also, you can read:   https://stackoverflow.com/questions/40799258/where-can-i-get-serviceaccountcredentials-json-for-firebase-admin
+
 
  
 Start project with: 
