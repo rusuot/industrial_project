@@ -129,7 +129,8 @@ If we will use 1 (as integer/number): an eror will be received & the error has t
 Each and every key directly exposed at the root of the JSON object is considered as a separate URL in json-server. \
 
 
-
-Code presented in this repo works, is running without any issue. However, I have found some very interesting automatic tools, I will let below the links, they are only for infor for any further projects:
+# Important
+Code presented in this repo works, is running without any issue. 
+However, I have found some very interesting automatic tools, I will let below the links, they are only for infor for any further projects:
 -->https://medium.com/@xathis/import-json-into-firebase-firestore-without-code-9084e919f54a
 -->https://www.firefoo.app/
