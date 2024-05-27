@@ -17,7 +17,9 @@ https://www.youtube.com/watch?v=5O38WFpoLn8&t=473s
 # Support Videos for how to create Firebase CRUD API (these are only 3 examples):
 
 https://www.youtube.com/watch?v=bs_xs9-RJvc 
+
 https://www.youtube.com/watch?v=bs_xs9-RJvc 
+
 https://www.youtube.com/watch?v=YPsftzOURLw
 
 # Example how you can generate keys and Firebase DB details:
