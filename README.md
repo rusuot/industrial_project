@@ -35,6 +35,9 @@ Once the project is run, a message such as "Server has started on port: 8383" wi
 Next, for any CRUD API call, Postman can be used.
 Below API CRUD calls can be checked:
 
+
+
+# How this API works
 ### GET ALL products 
 Method: GET \
 Path:   http://localhost:8383/products \
