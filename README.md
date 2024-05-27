@@ -133,7 +133,9 @@ Each and every key directly exposed at the root of the JSON object is considered
 
 
 # Important
-Code presented in this repo works, is running without any issue. 
+Code presented in this repo works, is running without any issue. (don't forget to update creds.json file with your Firebase DB details) 
 However, I have found some very interesting automatic tools, I will let below the links, they are only for infor for any further projects:
 -->https://medium.com/@xathis/import-json-into-firebase-firestore-without-code-9084e919f54a
 -->https://www.firefoo.app/
+
+This GitHub is inspired (check youtube videos provided in this ReadMe file)
