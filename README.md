@@ -3,7 +3,12 @@ CRUD node.js + firebase
 
 # creds.json and firebase DB
 - These credentials are for a specific DB created only for testing
-- These Firebase DB data can be updated with any Firebase DB details (work for Industrial Project)
+- These Firebase DB data can be updated with any Firebase DB details (research work for Industrial Project, so these are only simple "learning steps")
+
+# Support Videos for how to create Firebase CRUD API (these are only 2 examples):
+https://www.youtube.com/watch?v=bs_xs9-RJvc 
+https://www.youtube.com/watch?v=bs_xs9-RJvc 
+
  
 Start project with: 
 <ul>
