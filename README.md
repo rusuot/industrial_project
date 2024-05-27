@@ -1,4 +1,4 @@
-# crud-node-firebase
+# crud-node-firebase (part of **RESEARCH** for project)
 CRUD node.js + firebase  
 
 # creds.json and firebase DB
