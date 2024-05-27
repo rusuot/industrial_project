@@ -1,5 +1,5 @@
 // API CRUD Firebase
-// This API CRUD was developed for Industrial Project QHO 
+// This API CRUD was developed for Industrial Project QHO only as part of Research. 
 
 // const query = require('firebase/firestore');
 // const where = require('firebase/firestore');
